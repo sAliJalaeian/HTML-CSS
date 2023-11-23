@@ -1,0 +1,215 @@
+html {
+  font-family: Vazirmatn, sans-serif;
+  font-size: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container header {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.aside-right h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.aside-right h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1.3rem 0;
+  color: #ff6d00;
+}
+
+.nwp_breadcrumb {
+  display: flex;
+  justify-content: center;
+}
+
+.centerHeader {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.iconsTopMenu {
+  display: flex;
+  align-items: center;
+}
+
+.iconsTopMenu li {
+  margin-right: 15px;
+  position: relative;
+}
+
+.iconsTopMenu .nirwebIcon {
+  background-color: var(--primery-bg-color);
+  border-radius: 12px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 0 rgb(255 233 198 / 30%);
+}
+
+.loginAuthNirWp {
+  border-radius: 10px;
+  height: 50px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 5px 5px 10px 0 rgb(255 233 198 / 30%);
+  background: linear-gradient(184deg, #f38b24 0%, #f37124 100%) !important;
+}
+
+.iconsCall {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.iconsCall p {
+  margin-left: 6rem;
+  position: relative;
+    top: 13px;
+    right: -31px;
+}
+
+.iconsCall label {
+  color: #ff6d00;
+  font-weight: bold;
+}
+
+.iconsCall figure {
+  margin-left: .4rem;
+}
+
+.iconsCall label {
+  position: relative;
+  top: -16px;
+  left: -11px;
+}
+
+.centerFlex {
+  display: flex;
+  align-items: baseline;
+}
+
+.aside-right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+  flex: 0 0 auto;
+  width: 50%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.col label {
+  margin-bottom: 10px;
+}
+
+.sendButton {
+  margin-top: 1rem;
+  width: 65px;
+  height: 30px;
+  background-color: #ff6d00;
+  color: #fff;
+  font-weight: bold;
+  font-size: 110%;
+  font-family: inherit;
+}
+
+.formPadding {
+  padding: 20px;
+}
+
+.textarea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea textarea {
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-right p {
+  line-height: 30px;
+}
+
+.elementor-divider {
+  margin: 2.9rem 0 1rem;
+}
+
+.form-control {
+  margin-left: 10px;
+}
+
+.aside-left {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.nwp_breadcrumb li {
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.loginAuthNirWp a {
+  color: #fff;
+}
+
+.logoNirWp {
+  display: flex;
+  justify-content: flex-start;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li {
+  padding: 2rem;
+}

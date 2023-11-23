@@ -1,0 +1,48 @@
+html {
+  font-family: Vazirmatn, sans-serif;
+  font-size: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.form {
+  margin-top: 2rem;
+}
+
+.form .form-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: brown;
+  margin-bottom: 2rem;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form label,
+.form input:not([type="checkbox"]) {
+  display: block;
+  margin-bottom: .7rem;
+}
+
+.form input.form-control {
+  width: 100%;
+  font-family: inherit;
+  padding: .6rem .6rem;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, .3);
+}
+
+.form input.form-control::placeholder {
+  color: red;
+}
+
+.checkbox {
+  position: relative;
+  padding-right: 2.1rem;
+  padding-top: .4rem;
+}
