@@ -34,6 +34,12 @@ a {
     display: flex;
 }
 
+.war_home_feature p {
+    font-size: 11px;
+    text-align: center;
+    color: #9E9E9E;
+}
+
 .navbar li {
     margin-left: 1.5rem;
 }
@@ -187,7 +193,7 @@ img {
 }
 
 @media (min-width: 992px)
-.under-top {
+.row-2 {
     flex: 0 0 auto;
     width: 25%;
 }
