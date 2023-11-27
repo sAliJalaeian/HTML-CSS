@@ -198,6 +198,54 @@ img {
     width: 25%;
 }
 
+.move_product {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.move_product > a > span {
+    margin-right: 10px;
+    height: 20px;
+    transform: rotate(180deg);
+}
+
+.move_product > a {
+     color: #f37124;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.move_product > div {
+    display: flex;
+}
+
+.product_carousel-prev__pro {
+    margin-left: 15px;
+}
+
+.col-3-1 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+
+.col-xl-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
 .box_home_feature {
     display: flex;
     flex: 1 1 auto;

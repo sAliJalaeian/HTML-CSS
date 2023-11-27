@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: Qs_Iranyekan, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/************ header *******/
+.align-items-center {
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 16px;
+    margin: 20px auto;
+}
+
+.main_nav {
+
+}
+
+.main_nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main_nav ul li {
+    margin: 0 10px;
+}
+
+.main_nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+}
+
+.btn_header ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+}
+
+.nirWebIcon {
+    margin-left: 15px;
+    background-color: #fcfaf7;
+    padding: 8px;
+    display: block;
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+.login_btn {
+    background: linear-gradient(184deg, #f38b24 0%, #f37124 100%) !important;
+    padding: 13px 21px !important;
+    border-radius: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/************** slider ********/
+.left_banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.left_banner img:first-child {
+    margin-bottom: 15px;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
+}
+
+.slider_Swiper {
+    text-align: center;
+    font-size: 18px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_Swiper img {
+    display: block;
+    object-fit: cover;
+}
+
+.swiper-horizontal img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.product_archive {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.box_home_feature {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.box_left_product_carousel {
+    padding: 25px 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    height: 100%;
+}
+
+.info_product_carousel__pro svg {
+    margin: 20px 0;
+}
+
+.info_product_carousel__pro h3 {
+    font-size: 28px;
+    color: #16181C;
+    margin-bottom: 15px;
+}
+
+.info_product_carousel__pro p {
+    color: #9E9E9E;
+    text-align: justify;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.move_product_Carousel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.move_product_Carousel > a {
+    color: #f37124;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.move_product_Carousel > div {
+    display: flex;
+}
+
+.move_product_Carousel .product_carousel-prev__pro {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.move_product_Carousel .product_carousel--next__pro {
+    cursor: pointer;
+}
+
+.title_cat_archive_procut {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.rate_comment_archive_procut {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.bottom_ap {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product_nirweb_carousel .product_archive_title, .product_nirweb_carousel__pro .product_archive_title {
+    font-size: 16px;
+}
+
+.product_archive_title {
+    color: #16181C;
+}
+
+.bottom_ap .add_view_ap {
+    display: flex;
+    align-items: center;
+}
+
+.bottom_ap .add_view_ap a:first-child {
+    background: #fff;
+    width: 130px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f37124;
+    border: 2px solid #f37124;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.product_nirweb_carousel .bottom_ap .add_view_ap a, .product_nirweb_carousel__pro .bottom_ap .add_view_ap a {
+    width: 125px !important;
+    height: 45px !important;
+    font-size: 17px !important;
+}
+
+.bottom_ap .add_view_ap a:first-child span {
+    margin-right: 7px;
+}
+
+/*.add_view_ap:hover {*/
+/*    background: #f37124;*/
+/*    color: #f37124;*/
+/*}*/
+
+.comment_ap {
+    margin-right: 20px;
+}
+
+.info_product_carousel__pro h3 span {
+    color: #f37124;
+}
+
+.move_product_Carousel > a > span {
+    margin-right: 10px;
+    height: 20px;
+    transform: rotate(180deg);
+}
+
+.war_home_feature {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin: 10px 0 15px 0;
+    background-image: url(./assets/images/bg-fea-home.svg);
+    background-repeat: repeat-x;
+}
+
+.war_home_feature a {
+    text-decoration: none;
+    color: black;
+}
+
+.war_home_feature > a > section > p {
+    color: #9E9E9E !important;
+    font-size: 14px;
+    font-family: inherit;
+}
